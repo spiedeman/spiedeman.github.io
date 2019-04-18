@@ -2,6 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://spiedeman.github.io/about/index.html</loc>
+    
+    <lastmod>2019-04-18T04:42:57.221Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://spiedeman.github.io/links/index.html</loc>
+    
+    <lastmod>2019-04-18T04:42:51.292Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://spiedeman.github.io/tags/index.html</loc>
+    
+    <lastmod>2019-04-18T04:42:46.311Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://spiedeman.github.io/categories/index.html</loc>
+    
+    <lastmod>2019-04-18T04:42:26.706Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://spiedeman.github.io/books/index.html</loc>
+    
+    <lastmod>2019-04-18T04:42:01.491Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://spiedeman.github.io/posts/3465068350/</loc>
     
     <lastmod>2019-04-01T15:00:21.836Z</lastmod>
@@ -23,6 +58,13 @@
   </url>
   
   <url>
+    <loc>http://spiedeman.github.io/posts/3264731549/</loc>
+    
+    <lastmod>2019-03-17T15:09:08.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://spiedeman.github.io/posts/319510325/</loc>
     
     <lastmod>2019-03-17T15:09:08.000Z</lastmod>
@@ -30,7 +72,7 @@
   </url>
   
   <url>
-    <loc>http://spiedeman.github.io/posts/3264731549/</loc>
+    <loc>http://spiedeman.github.io/posts/1952119038/</loc>
     
     <lastmod>2019-03-17T15:09:08.000Z</lastmod>
     
@@ -58,7 +100,14 @@
   </url>
   
   <url>
-    <loc>http://spiedeman.github.io/posts/1952119038/</loc>
+    <loc>http://spiedeman.github.io/posts/2388637373/</loc>
+    
+    <lastmod>2019-03-17T15:09:08.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://spiedeman.github.io/posts/2712929324/</loc>
     
     <lastmod>2019-03-17T15:09:08.000Z</lastmod>
     
@@ -73,20 +122,6 @@
   
   <url>
     <loc>http://spiedeman.github.io/posts/1949292692/</loc>
-    
-    <lastmod>2019-03-17T15:09:08.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://spiedeman.github.io/posts/2712929324/</loc>
-    
-    <lastmod>2019-03-17T15:09:08.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://spiedeman.github.io/posts/2388637373/</loc>
     
     <lastmod>2019-03-17T15:09:08.000Z</lastmod>
     
@@ -128,13 +163,6 @@
   </url>
   
   <url>
-    <loc>http://spiedeman.github.io/posts/3538923028/</loc>
-    
-    <lastmod>2019-03-17T15:09:06.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://spiedeman.github.io/posts/3452120969/</loc>
     
     <lastmod>2019-03-17T15:09:06.000Z</lastmod>
@@ -142,7 +170,14 @@
   </url>
   
   <url>
-    <loc>http://spiedeman.github.io/posts/3384466728/</loc>
+    <loc>http://spiedeman.github.io/posts/3538923028/</loc>
+    
+    <lastmod>2019-03-17T15:09:06.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://spiedeman.github.io/posts/4141491110/</loc>
     
     <lastmod>2019-03-17T15:09:06.000Z</lastmod>
     
@@ -156,7 +191,7 @@
   </url>
   
   <url>
-    <loc>http://spiedeman.github.io/posts/4141491110/</loc>
+    <loc>http://spiedeman.github.io/posts/3384466728/</loc>
     
     <lastmod>2019-03-17T15:09:06.000Z</lastmod>
     
