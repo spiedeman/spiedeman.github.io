@@ -134,6 +134,8 @@ git pull origin source
 最后，把对源文件的修改推送到 `source` 分支上。
 
 
+:clap: 又🉐️到一项新技能，哈哈:smirk:
+
 ---
 参考资料：
 [theqwang's blog](https://theqwang.github.io/2017/03/17/在多台电脑间使用hexo/#more)
