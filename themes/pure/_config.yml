@@ -206,23 +206,16 @@ profile:
   # My Skills 
   skills:
     Git: ★★★☆☆
-    Gulp: ★★★☆☆
-    Javascript: ★★★☆☆
-    HTML+CSS: ★★★☆☆
-    Bootstrap: ★★★☆☆
-    ThinkPHP: ★★★☆☆
-    平面设计: ★★★☆☆
+    Python: ★★★☆☆
+    Vim: ★★★☆☆
   # My Personal Links
   links:
     Github: https://github.com/spiedeman
     简书: https://jianshu.com
   # My Personal Labels
   labels:
-    - 前端
-    - 前端开发
-    - 前端重构
-    - Web前端
-    - 网页重构
+    - Python
+    - Vim
   # My Personal Works
   works:
     name:
