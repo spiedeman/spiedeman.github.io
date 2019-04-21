@@ -3,3 +3,4 @@ public/
 .deploy_git/
 tags
 db.json
+package-lock.json
