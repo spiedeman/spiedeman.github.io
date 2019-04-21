@@ -83,7 +83,7 @@ theme: pure
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/spiedeman/spiedeman.github.io
+  repository: git@github.com:spiedeman/spiedeman.github.io.git
   name: spiedeman
   email: spiedeman@gmail.com
   branch: master
