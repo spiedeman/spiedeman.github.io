@@ -31,9 +31,23 @@ touch ssh
 用网线连接树莓派和Mac，打开Mac终端，通过`ssh`连接树莓派。
 
 ```bash
+# 搜索raspberrypi的ip地址
+arp -a
+
 # 将公钥加入远程主机的 authorized_keys 文件中，实现无密码登陆
 ssh-copy-id pi@raspberrypi
 ```
+
+# 更新源
+将文件`/etc/apt/sources.list`中的`raspbian.raspberrypi.org`替换为`mirrors.ustc.edu.cn/raspbian`。
+
+
+树莓派的archive.raspberrypi.org软件源，也即`/etc/apt/sources.list.d/raspi.list`。
+
+是由树莓派基金会提供的软件源，包括ui相关程序（如Raspbian的桌面环境PIXEL
+DE）及部分由树莓派基金会为树莓派编写的软件，通常与archive.raspbian.org一起使用。
+
+将`archive.raspberrypi.org/`替换为`mirrors.ustc.edu.cn/archive.raspberrypi.org/`。
 
 # 初始化配置
 输入命令 `sudo raspi-config` 进入配置模式。常用的有扩展系统分区，修改密码，启动设置等。

@@ -28,7 +28,7 @@ pip install ipykernel
 
 3、为`jupyter`安装新内核
 ```bash
-ipython kernel install --user --name science -display-name "python3 (science)"
+ipython kernel install --user --name science --display-name "python3 (science)"
 ```
 
 4、查看可用内核

@@ -121,18 +121,18 @@ neat_js:
 
 # Markdown_it_plus
 ## 替换了 hexo 的默认 markdown 渲染引擎 hexo-renderer-marked
-markdown_it_plus:
-  highlight: true
-  html: true
-  xhtmlOut: true
-  breaks: true
-  langPrefix:
-  linkify: true
-  quotes: 
-  plugins:
-    - plugin:
-      name: markdown-it-katex
-      enable: true
-    - plugin:
-      name: markdown-it-mark
-      enable: false
+# markdown_it_plus:
+#   highlight: true
+#   html: true
+#   xhtmlOut: true
+#   breaks: true
+#   langPrefix:
+#   linkify: true
+#   quotes: 
+#   plugins:
+#     - plugin:
+#       name: markdown-it-katex
+#       enable: true
+#     - plugin:
+#       name: markdown-it-mark
+#       enable: false
