@@ -51,7 +51,6 @@ eval "$(pyenv init -)"
   ```bash
   sudo installer -pkg /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg -target /
   ```
-
 - Debian/Ubuntu
   ```bash
   apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev
@@ -69,6 +68,11 @@ env python_configure_opts="--enable-framework" pyenv install 3.6.6
 # Linux
 env python_configure_opts="--enable-shared" pyenv install 3.6.6
 ```
+若提示错误`no module named pyexpat`，则用如下方式安装
+```bash
+SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk MACOSX_DEPLOYMENT_TARGET=10.14 pyenv install 2.7.16
+```
+
 
 # 参考命令
 
