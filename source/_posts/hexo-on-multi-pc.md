@@ -30,7 +30,7 @@ Github Pages 上就变得很麻烦，一时不知从何下手。
 
 1、克隆仓库 `username.github.io` 到本地
 ```bash
-git clone https://github.com/username/username.github.io
+git clone https://github.com/username/username.github.io Hexo
 ```
 
 2、进入该文件夹并创建新的分支
@@ -87,10 +87,10 @@ git push origin source
 3、把 souce 分支克隆到本地
 
 ```bash
-git clone -b source git@github.com:username/username.github.io.git
+git clone -b source git@github.com:username/username.github.io.git Hexo
 
 # 若已将 source 分支设为默认分支，则可以简化命令
-git clone https://github.com/username/username.github.io
+git clone https://github.com/username/username.github.io Hexo
 ```
 
 4、安装所有依赖，生成 `node_modules` 目录
