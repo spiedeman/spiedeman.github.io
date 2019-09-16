@@ -1,5 +1,6 @@
 ---
 title: 记快手笔试大题
+mathjax: true
 tags:
   - 面试
 abbrlink: d82964a7
