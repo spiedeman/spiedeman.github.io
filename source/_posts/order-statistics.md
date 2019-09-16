@@ -1,5 +1,6 @@
 ---
 title: 次序统计量
+mathjax: true
 tags:
   - 数学
   - 统计
