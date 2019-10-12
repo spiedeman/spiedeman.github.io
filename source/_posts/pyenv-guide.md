@@ -55,6 +55,11 @@ eval "$(pyenv init -)"
   ```bash
   apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev
   ```
+  在服务器上`import pandas as pd`可能会出现`lzma module could not found,
+  your python was incomplete`这样的错误。解决办法是安装库`liblzma-dev`。
+  ```bash
+  apt install liblzma-dev
+  ```
 
 # 安装python
 
