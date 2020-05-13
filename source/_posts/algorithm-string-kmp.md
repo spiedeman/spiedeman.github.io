@@ -1,8 +1,10 @@
 ---
 title: 字符串匹配之KMP算法
 mathjax: true
-tags:
+toc: true
+category:
   - 算法
+tags:
   - 字符串匹配
 abbrlink: b5ae7cab
 date: 2019-08-18 11:20:11

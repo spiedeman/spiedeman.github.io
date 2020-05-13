@@ -1,5 +1,5 @@
 ---
-title: Metaclass
+title: 元类（Metaclass）
 category: Python
 toc: true
 mathjax: false

@@ -1,6 +1,9 @@
 ---
 title: 记快手笔试大题
+toc: true
 mathjax: true
+category:
+  - 算法
 tags:
   - 面试
 abbrlink: d82964a7

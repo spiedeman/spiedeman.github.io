@@ -1,5 +1,5 @@
 ---
-title: graphviz-introduction
+title: Graphviz 介绍
 mathjax: false
 toc: true
 abbrlink: 1414645917
@@ -7,7 +7,7 @@ date: 2019-02-16 16:46:44
 category:
   - Graphviz
 tags:
-  - graphviz
+  - Graphviz
 ---
 
 这篇文章参考自[Drawing graphs with *dot*](http://www.graphviz.org/pdf/dotguide.pdf)

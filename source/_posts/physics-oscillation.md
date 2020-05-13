@@ -1,20 +1,17 @@
 ---
-title: physics-oscillation
+title: 阻尼振动
 mathjax: true
 toc: true
 abbrlink: 3976093928
 date: 2018-09-24 10:32:26
 category:
-  - Physics
-  - Oscillation
+  - 物理
 tags:
   - Physics
   - Oscillation
 ---
 
 [参考](http://www2.hkedcity.net/sch_files/a/fms/fms-physics/public_html/resource/pdf/a8-damping.pdf)
-
-#  阻尼振动
 
 - 以弹簧为模型讨论，当考虑空气阻力时，运动方程为
   $$

@@ -1,5 +1,6 @@
 ---
 title: Python-数值积分初值常微分方程组
+category: 数值计算
 tags:
   - Python
   - Scipy

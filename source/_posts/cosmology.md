@@ -1,11 +1,11 @@
 ---
-title: cosmology
+title: 波的性质
 mathjax: true
 toc: true
 categories:
-  - cosmology
+  - 物理
 tags:
-  - cosmology
+  - Cosmology
 abbrlink: 3384466728
 date: 2018-09-19 11:00:38
 ---

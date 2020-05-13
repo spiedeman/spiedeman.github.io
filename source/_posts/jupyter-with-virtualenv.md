@@ -1,12 +1,12 @@
 ---
-title: jupyter-with-virtualenv
+title: Jupyter-With-Virtualenv
 mathjax: false
 toc: true
 category:
   - Python
 tags:
-  - jupyter
-  - virtualenv
+  - Jupyter
+  - Virtualenv
 abbrlink: 3264731549
 date: 2018-11-26 13:36:56
 ---

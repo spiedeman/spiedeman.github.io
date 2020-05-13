@@ -3,9 +3,9 @@ title: Homebrew 使用方法
 mathjax: false
 toc: true
 category:
-  - Homebrew
+  - MacOS
 tags:
-  - homebrew
+  - Homebrew
 abbrlink: 319510325
 date: 2018-12-04 21:55:23
 ---

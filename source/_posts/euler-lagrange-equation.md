@@ -1,9 +1,9 @@
 ---
-title: euler-lagrange-equation
+title: 欧拉-拉格朗日方程
 mathjax: true
 toc: true
 category:
-  - QFT
+  - 物理
 tags:
   - 最小作用量
   - 诺特定理

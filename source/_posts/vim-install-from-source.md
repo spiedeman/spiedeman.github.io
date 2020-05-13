@@ -1,11 +1,11 @@
 ---
-title: vim 编译安装及配置
+title: Vim 编译安装及配置
 mathjax: false
 toc: true
 category:
   - Vim
 tags:
-  - vim
+  - Vim
 abbrlink: 3465068350
 date: 2018-12-08 14:56:12
 ---

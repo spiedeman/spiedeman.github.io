@@ -1,5 +1,6 @@
 ---
 title: 记三七互娱笔试大题
+category: 算法
 mathjax: true
 tags:
   - 面试

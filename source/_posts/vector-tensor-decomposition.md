@@ -3,7 +3,7 @@ title: 矢量函数分解
 mathjax: true
 toc: true
 category:
-  - Math
+  - 数学
 tags:
 abbrlink: 2388637373
 date: 2018-10-08 16:34:27

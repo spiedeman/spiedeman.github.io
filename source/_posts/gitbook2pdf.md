@@ -1,5 +1,6 @@
 ---
 title: GitBook 安装配置 & 导出 PDF
+category: 电子书
 tags:
   - GitBook
 abbrlink: 3741144490

@@ -3,10 +3,10 @@ title: Mac下安装Python版CAMB
 mathjax: false
 toc: true
 category:
-  - python
+  - Python
 tags:
-  - python
-  - camb
+  - Python
+  - CAMB
 abbrlink: 3538923028
 date: 2018-11-26 17:48:03
 ---

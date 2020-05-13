@@ -2,9 +2,9 @@
 title: hexo 建站及使用建议
 toc: true
 categories:
-  - hexo
+  - Hexo
 tags:
-  - hexo
+  - Hexo
 abbrlink: 1795312736
 date: 2018-09-17 15:03:18
 ---

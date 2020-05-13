@@ -1,12 +1,11 @@
 ---
-title: matplotlib 技巧
+title: Matplotlib 技巧
 mathjax: false
 toc: true
 categories:
-  - python
-  - matplotlib
+  - Python
 tags:
-  - matplotlib
+  - Matplotlib
 abbrlink: 1362387800
 date: 2018-09-19 16:04:13
 ---

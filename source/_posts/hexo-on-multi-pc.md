@@ -1,5 +1,6 @@
 ---
 title: 在多台电脑上同步更新Hexo博客
+category: Hexo
 tags:
   - Hexo
 abbrlink: 77781092

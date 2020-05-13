@@ -1,5 +1,5 @@
 ---
-title: vim 技巧
+title: Vim 技巧
 mathjax: false
 toc: true
 category:

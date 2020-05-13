@@ -3,7 +3,7 @@ title: 树莓派新手指南
 mathjax: false
 toc: true
 category:
-  - Raspberrypi
+  - 树莓派
 tags:
   - Raspberrypi
 abbrlink: 2712929324

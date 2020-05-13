@@ -1,12 +1,11 @@
 ---
-title: python万物皆对象
+title: Python万物皆对象
 mathjax: false
 toc: true
 category:
   - Python
 tags:
-  - Type
-  - Object
+  - 类型与对象
 abbrlink: 1949292692
 date: 2018-12-14 19:33:45
 ---

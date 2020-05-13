@@ -1,14 +1,14 @@
 ---
-title: sed 学习笔记
+title: Sed 学习笔记
 mathjax: false
 abbrlink: 2825119572
 date: 2018-09-18 15:09:07
 toc: true
 categories:
-  - bash
+  - 脚本
 tags:
-  - bash
-  - sed
+  - Bash
+  - Sed
 ---
 
 # sed 简介

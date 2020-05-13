@@ -3,10 +3,10 @@ title: CentOS6.6编译安装Clang7.0.0
 mathjax: false
 toc: true
 category:
-  - Clang
+  - 编程语言
 tags:
-  - clang
-  - centos
+  - Clang
+  - CentOS
 abbrlink: 2372579481
 date: 2018-12-08 15:52:16
 ---

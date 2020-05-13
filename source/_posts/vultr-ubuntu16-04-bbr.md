@@ -3,7 +3,7 @@ title: Ubuntu 16.04 LTS 开启BBR
 mathjax: false
 toc: true
 category:
-  - Vultr
+  - 科学上网
 tags:
   - BBR
 abbrlink: 3381164653

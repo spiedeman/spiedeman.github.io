@@ -1,6 +1,7 @@
 ---
 title: 记小米一面算法题——人民币大写金额转换
 mathjax: true
+category: 算法
 tags:
   - 面试
 abbrlink: 8bd25443

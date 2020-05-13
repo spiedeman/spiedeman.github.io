@@ -1,23 +1,23 @@
 ---
-title: bash-tips
+title: Bash-技巧
 mathjax: false
 abbrlink: 3452120969
 date: 2017-06-09 14:54:21
 toc: true
 categories:
-  - bash
+  - 脚本
 tags:
-  - bash
+  - Bash
 ---
 
-持续更新 `bash` 小技巧
+持续更新 `Bash` 小技巧
 
 - 检测程序是否已安装
 
 ```bash
 #!/bin/bash
 check_software(){
-    local software=("vim" "git" "tmux" "npm")   # 待测程序名
+    local software=(vim git tmux npm)   # 待测程序名
     for soft in ${software[@]}
     do
         type $soft 2>&1 > /dev/null     # 已安装，则返回零

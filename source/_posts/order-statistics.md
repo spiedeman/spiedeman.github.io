@@ -1,6 +1,8 @@
 ---
 title: 次序统计量
 mathjax: true
+toc: true
+category: 算法
 tags:
   - 数学
   - 统计

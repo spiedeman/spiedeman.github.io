@@ -1,12 +1,11 @@
 ---
-title: pandas 简介
+title: Pandas 简介
 mathjax: false
 toc: true
 abbrlink: 1982572123
 date: 2018-09-21 14:22:14
 category:
   - Python
-  - Pandas
 tags:
   - Python
   - Pandas

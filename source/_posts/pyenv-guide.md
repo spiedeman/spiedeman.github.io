@@ -1,13 +1,13 @@
 ---
-title: pyenv基础教程
+title: Pyenv基础教程
 mathjax: false
 toc: true
 abbrlink: 1952119038
 date: 2018-09-30 16:52:46
 category:
-- Python
+  - Python
 tags:
-- Python
+  - Pyenv
 ---
 
 [pyenv](https://github.com/pyenv/pyenv#table-of-contents) 是一个`python`版本管理软件。受到`ruby`的同类软件 [rbenv](https://github.com/rbenv/rbenv)和 [ruby-build](https://github.com/rbenv/ruby-build)的启发。
