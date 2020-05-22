@@ -90,34 +90,23 @@ fi
 
 四指切换工作区的命令很简单，不需要借助脚本实现。但是涉及到**便签区窗口**的功能无法用一行命令搞定，因此写了一个脚本`show_or_hide_scratchpad`。
 ```bash
-# 获取窗口ID
-wm_ID="$(xdotool getactivewindow)"
-
 # 获取手势方向
 DIRECTION=${1:-up}
 
-# 判断获得焦点的窗口是否为浮动窗口
-function is_floating() {
-    if xprop -id $1 | grep -i float > /dev/null 2>&1; then
-        echo 'yes'
-    else
-        echo 'no'
-    fi
-}
-
-# 尝试获取浮动窗口的ID
-if [[ $is_floating $wm_ID ]]; then
-    xdotool key super+space
-    wm_ID="$(xdotool getactivewindow)"
-fi
-
 # 核心逻辑部分
-if [[ $(is_floating $wm_ID) == yes ]]; then
-    if [[ $DIRECTION == 'up' ]]; then
-        xdotool key super+minus
-    elif [[ $DIRECTION == 'down' ]]; then
-        xdotool key super+shift+minus
+if [[ $DIRECTION == 'up' ]]; then
+    if i3-msg focus floating; then
+        i3-msg move scratchpad
     fi
+elif [[ $DIRECTION == 'down' ]]; then
+    if i3-msg focus floating; then
+        i3-msg move scratchpad
+        i3-msg move scratchpad
+    else
+        i3-msg move scratchpad
+    fi
+    i3-msg [floating] resize set 1280 1200
+    i3-msg move position center
 fi
 ```
 

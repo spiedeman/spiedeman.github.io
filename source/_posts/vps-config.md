@@ -140,13 +140,9 @@ VPS_SERVERS=($(read_section_ini $SERVER_INFO_FILE))
 接下来就涉及到`Trojan`和`V2Ray`相关的脚本了，同样定义两个函数
 
 ```bash
-# 可用的VPS都存放在数组变量 VPS_SERVERS 中，传入的参数为数组下标，
-# 用于选取特定 VPS
-SERVER_ID=${1:-0}
-SERVER_NAME=${VPS_SERVERS[$SERVER_ID]}
 
 function choose_server_for_trojan() {
-    TROJAN_SERVER=$SERVER_NAME
+    TROJAN_SERVER=$1
     TROJAN_CONFIG=/path/to/trojan的模板配置文件
     # 获取选定VPS的具体信息
     dns_proxy=$(read_ini $SERVER_INFO_FILE $TROJAN_SERVER dns_proxy)
@@ -169,22 +165,98 @@ function choose_server_for_v2ray() {
     # V2Ray相关配置修改
 }
 
+# 核心逻辑部分
+function change_server() {
+    # 可用的VPS都存放在数组变量 VPS_SERVERS 中，传入的参数为数组下标，
+    # 用于选取特定 VPS
+    VPS_SERVERS=($(read_section_ini $SERVER_INFO_FILE))
+    SERVER_ID=${1:-0}
+    SERVER_NAME=$(VPS_SERVERS[$SERVER_ID])
+    if [ $SERVER_ID -ge 0 ] && [ $SERVER_ID -lt ${#VPS_SERVERS[*]} ]; then
+        choose_server_for_trojan $SERVER_NAME
+        choose_server_for_v2ray $SERVER_NAME
+    else
+        echo "错误：VPS服务器不存在"
+        echo "尝试：'$COMMAND -i' 查看可用服务器"
+    fi
+}
+```
+
+都到这个程度了，干脆写成一个简单的命令行程序。
+```bash
+# 除了上面提到的函数外，再定义三个函数，用于实现相应的命令参数
+function show_help() {
+    echo "欢迎使用本脚本切换VPS服务器"
+    echo "用法：vps_server 选项"
+    echo "选项："
+    echo "  -h [--help]         显示本帮助"
+    echo "  -s [--server=val]   通过val选择不同VPS服务器"
+    echo "  -i [--info]         显示可用服务器汇总信息"
+    echo "  -c [--current]      显示当前使用的VPS服务器"
+}
+
+
 function show_servers_info() {
-# 输出VPS相关信息
+    # shellcheck disable=SC2128,2207
+    [ -z "$VPS_SERVERS" ] && VPS_SERVERS=($(read_section_ini $SERVER_INFO_FILE))
     echo "可用的服务器有："
     for i in "${!VPS_SERVERS[@]}"; do
-    echo "  $i ): ${VPS_SERVERS[i]}"
+        echo "    $i ): ${VPS_SERVERS[i]}"
     done
+    echo ""
+    echo "服务器端安装完成："
+    echo "    将证书下载至客户端所在主机并放置在正确路径"   
+    echo "    客户端配置文件中需指定证书（或其软链接）路径"
+    echo "    若CloudFlare中开启了代理，则客户端配置文件中只能使用IP。"
+    echo ""
+    echo "客户端安装完成："
+    echo "    从服务器上下载证书并安装"
+    echo "    配置文件中需指定证书绝对路径"
+    echo "    |             |       |    remote_addr   |"
+    echo "    |             |       |   IP   |   域名  |"
+    echo "    | CloudFlare  |  DNS  |    ✔   |    ✔    |"
+    echo "    |             | Proxy |    ✔   |    ✘    |" 
     echo ""
 }
 
-# 核心逻辑部分
-if [ $SERVER_ID -ge 0 ] && [ $SERVER_ID -lt ${#VPS_SERVERS[*]} ]; then
-    choose_server_for_trojan
-    choose_server_for_v2ray
-else
-    # 显示VPS相关信息
-    show_servers_info
-fi
+function get_current_server() {
+    awk -F ':' '{
+        if ($1 ~ /\"sni/) {
+            gsub(/\"/, "", $2)
+            print $2
+        }
+    }' $TROJAN_PREFIX/config.json
+}
+
+# while循环与case结构处理命令参数
+while [[ $# -ge 1 ]]; do
+    case "$1" in
+        -h|--help )
+            show_help
+            ;;
+        -i|--info)
+            show_servers_info
+            ;; 
+        -c|--current)
+            VPS=$(get_current_server)
+            echo "当前VPS服务器："
+            echo "    ${VPS%%.*}"
+            ;;
+        -s|--server) 
+            shift
+            if [[ $# -ge 1 ]]; then
+                ID=$1
+            else
+                ID=0
+            fi
+            change_server $ID
+            ;;
+        *)
+            echo "错误：未识别选项 '$1'"
+            echo "尝试 '$COMMAND -h|--help' 查看帮助信息"
+            ;;
+    esac
+    shift
+done
 ```
 
