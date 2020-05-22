@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://spiedeman.github.io/posts/7a1be4a0/</loc>
+    
+    <lastmod>2020-05-22T14:56:35.982Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://spiedeman.github.io/posts/35c03362/</loc>
     
-    <lastmod>2020-05-13T12:24:13.236Z</lastmod>
+    <lastmod>2020-05-16T01:59:33.247Z</lastmod>
     
   </url>
   
@@ -233,21 +240,14 @@
   </url>
   
   <url>
-    <loc>http://spiedeman.github.io/posts/7a1be4a0/</loc>
-    
-    <lastmod>2020-05-08T11:38:03.241Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://spiedeman.github.io/about/index.html</loc>
+    <loc>http://spiedeman.github.io/books/index.html</loc>
     
     <lastmod>2020-05-08T10:33:52.612Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://spiedeman.github.io/books/index.html</loc>
+    <loc>http://spiedeman.github.io/about/index.html</loc>
     
     <lastmod>2020-05-08T10:33:52.612Z</lastmod>
     
