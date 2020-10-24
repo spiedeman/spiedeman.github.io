@@ -12,42 +12,42 @@ date: 2018-10-08 16:34:27
 结论：**纵向无旋，横向无源**
 
 ----------
-任意给定一个矢量函数 $w(\overrightarrow{x})=(w_1(\overrightarrow{x}),w_2(\overrightarrow{x}),w_3(\overrightarrow{x}))$。在傅立叶空间中，$\overrightarrow{k}$模式的系数$w(\overrightarrow{k})=(w_1(\overrightarrow{k}),w_2(\overrightarrow{k}),w_3(\overrightarrow{k}))$
+任意给定一个矢量函数 $w(\boldsymbol{x})=(w_1(\boldsymbol{x}),w_2(\boldsymbol{x}),w_3(\boldsymbol{x}))$。在傅立叶空间中，$\boldsymbol{k}$模式的系数$w(\boldsymbol{k})=(w_1(\boldsymbol{k}),w_2(\boldsymbol{k}),w_3(\boldsymbol{k}))$
 可以分解为动量$k$的平行和垂直方向。
 
 $$
-w = w^{//} + w^{\bot}
+w = w^{\parallel} + w^{\bot}
 $$
 
-且有 $w^{//} // \overrightarrow{k}$ 及 $w^{\bot}\cdot{\overrightarrow{k}} = 0$
+且有 $w^{\parallel} // \boldsymbol{k}$ 及 $w^{\bot}\cdot{\boldsymbol{k}} = 0$
 
-回到实空间中，发现 $w(\overrightarrow{x})$ 可以分解为纵向和横向两部分，$w^{//}(\overrightarrow{x})$ 和 $w^{\bot}(\overrightarrow{x})$。分别有如下性质：
+回到实空间中，发现 $w(\boldsymbol{x})$ 可以分解为纵向和横向两部分，$w^{\parallel}(\boldsymbol{x})$ 和 $w^{\bot}(\boldsymbol{x})$。分别有如下性质：
 
 - 纵向无旋
 
 $$
-\nabla \times w^{//}(\overrightarrow{x}) = 0
+\nabla \times w^{\parallel}(\boldsymbol{x}) = 0
 $$
 
 - 横向无源
 
 $$
-\nabla \cdot w^{\bot}(\overrightarrow{x}) = 0
+\nabla \cdot w^{\bot}(\boldsymbol{x}) = 0
 $$
 
 # 投影算符
-傅立叶空间中，$k$ mode 的纵向（横向）投影算符分别为
+傅立叶空间中，$\boldsymbol{k}$ 模的纵向（横向）投影算符分别为
 
 $$
 \begin{aligned}
-P^{\parallel}(\vec{k}) &= \hat{k}\otimes\hat{k} \\
-P^{\perp}(\vec{k}) &= 1 - \hat{k}\otimes\hat{k} \\
+P^{\parallel}(\boldsymbol{k}) &= \boldsymbol{\hat{k}}\otimes\boldsymbol{\hat{k}} \\
+P^{\perp}(\boldsymbol{k}) &= 1 - \boldsymbol{\hat{k}}\otimes\boldsymbol{\hat{k}} \\
 \end{aligned}
 $$
 或者分量表示
 $$
 \begin{aligned}
-P^{\parallel}_{ij}(\vec{k}) &= \hat{k}_i\hat{k}_j \\
-P^{\perp}_{ij}(\vec{k}) &= \delta_{ij} - \hat{k}_i\hat{k}_j \\
+P^{\parallel}_{ij}(\boldsymbol{k}) &= \boldsymbol{\hat{k}}_i\boldsymbol{\hat{k}}_j \\
+P^{\perp}_{ij}(\boldsymbol{k}) &= \delta_{ij} - \boldsymbol{\hat{k}}_i\boldsymbol{\hat{k}}_j \\
 \end{aligned}
 $$

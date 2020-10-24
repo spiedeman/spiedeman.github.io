@@ -15,6 +15,7 @@ date: 2020-05-08 13:26:19
 
  ### 安装Trojan和V2Ray
 是否在Debian/Ubuntu官方仓库中
+
 > - `Trojan`: ✔ (ubuntu从19.04开始)
 > - `V2Ray`:  ✘
 
@@ -77,7 +78,8 @@ function trojan_install() {
 
 `remote_addr`选择的规则为
 
-|               | DNS | Proxy |
+
+|分类           | DNS | Proxy |
 |:--------------:|:---------------:|:------:|
 | `remote_addr` | `IP`或者`域名` | `IP`  |
 

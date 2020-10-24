@@ -13,6 +13,7 @@ date: 2018-12-02 20:12:33
 
 # 作用量
 作用量 $S$ 是拉氏密度$\mathcal{L}$ 在四维时空中的积分，
+
 $$
 S = \frac{1}{c}\int d^4x \mathcal{L}(\phi,\partial_\mu\phi)
 $$
