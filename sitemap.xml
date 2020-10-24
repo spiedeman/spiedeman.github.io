@@ -2,9 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://spiedeman.github.io/posts/c80075c3/</loc>
+    
+    <lastmod>2020-10-24T03:28:48.037Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://spiedeman.github.io/posts/579653d0/</loc>
+    
+    <lastmod>2020-06-20T12:23:34.938Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://spiedeman.github.io/posts/f03e62a1/</loc>
+    
+    <lastmod>2020-06-18T11:47:48.009Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://spiedeman.github.io/posts/7a1be4a0/</loc>
     
-    <lastmod>2020-05-22T14:56:35.982Z</lastmod>
+    <lastmod>2020-06-07T15:48:07.581Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://spiedeman.github.io/posts/4141491110/</loc>
+    
+    <lastmod>2020-06-07T07:27:33.386Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://spiedeman.github.io/posts/2388637373/</loc>
+    
+    <lastmod>2020-06-07T06:47:33.483Z</lastmod>
     
   </url>
   
@@ -47,13 +82,6 @@
     <loc>http://spiedeman.github.io/posts/1414645917/</loc>
     
     <lastmod>2020-05-08T12:46:24.460Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://spiedeman.github.io/posts/4141491110/</loc>
-    
-    <lastmod>2020-05-08T12:45:57.649Z</lastmod>
     
   </url>
   
@@ -219,13 +247,6 @@
   </url>
   
   <url>
-    <loc>http://spiedeman.github.io/posts/2388637373/</loc>
-    
-    <lastmod>2020-05-08T11:48:03.922Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://spiedeman.github.io/posts/3976093928/</loc>
     
     <lastmod>2020-05-08T11:46:42.743Z</lastmod>
@@ -240,13 +261,6 @@
   </url>
   
   <url>
-    <loc>http://spiedeman.github.io/books/index.html</loc>
-    
-    <lastmod>2020-05-08T10:33:52.612Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://spiedeman.github.io/about/index.html</loc>
     
     <lastmod>2020-05-08T10:33:52.612Z</lastmod>
@@ -255,6 +269,13 @@
   
   <url>
     <loc>http://spiedeman.github.io/categories/index.html</loc>
+    
+    <lastmod>2020-05-08T10:33:52.612Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://spiedeman.github.io/books/index.html</loc>
     
     <lastmod>2020-05-08T10:33:52.612Z</lastmod>
     
