@@ -4,7 +4,7 @@
   <url>
     <loc>http://spiedeman.github.io/posts/b5ae7cab/</loc>
     
-    <lastmod>2020-11-25T12:42:02.548Z</lastmod>
+    <lastmod>2020-11-25T12:44:28.494Z</lastmod>
     
   </url>
   
@@ -261,13 +261,6 @@
   </url>
   
   <url>
-    <loc>http://spiedeman.github.io/books/index.html</loc>
-    
-    <lastmod>2020-05-08T10:33:52.612Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://spiedeman.github.io/about/index.html</loc>
     
     <lastmod>2020-05-08T10:33:52.612Z</lastmod>
@@ -275,7 +268,7 @@
   </url>
   
   <url>
-    <loc>http://spiedeman.github.io/links/index.html</loc>
+    <loc>http://spiedeman.github.io/books/index.html</loc>
     
     <lastmod>2020-05-08T10:33:52.612Z</lastmod>
     
@@ -283,6 +276,13 @@
   
   <url>
     <loc>http://spiedeman.github.io/categories/index.html</loc>
+    
+    <lastmod>2020-05-08T10:33:52.612Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://spiedeman.github.io/links/index.html</loc>
     
     <lastmod>2020-05-08T10:33:52.612Z</lastmod>
     
